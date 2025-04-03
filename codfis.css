@@ -15,14 +15,15 @@
 
 /* nav-bar */
 .logo img{
-    width: 200px;
+    width: 400px;
     margin: 0;
 }
 .nav{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(to right,white,white, navy , blue ,blue,blue ,navy,navy,blue,blue,navy,lightblue );
+    background-image: linear-gradient(to right, black, #1a1a1a, #333333, #4d4d4d, #666666);
+    color: white; /* Ensure text is readable */
     align-items: center;
 }
 .nav a{
@@ -33,7 +34,7 @@
 }
 .nav a:hover,.nav a:focus{
     text-decoration: underline;
-    color:gold;
+    color:rgb(0, 105, 0);
     /* font-size: 1.5rem; */
 }
 .nav-link{
@@ -95,7 +96,7 @@
 }
 .side-links a:hover{
     text-decoration: underline;
-    color: gold;
+    color: rgb(157, 140, 46);
 }
 .side-nav-link{
     padding: 20px;
@@ -131,7 +132,7 @@
 .end-content{
     max-width: 100%;
     color: wheat;
-    background-color: rgb(64, 60, 60);
+    background-color: linear-gradient(to right, black, #1a1a1a, #333333, #4d4d4d, #666666);
 }
 .social{
     width: 100%;
@@ -151,11 +152,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: linear-gradient(to right, black, #1a1a1a, #333333, #4d4d4d, #666666);
 }
 .end-links a{
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 .end-links a:hover{
     text-decoration: underline;
